@@ -15,6 +15,16 @@ Identify the key drivers behind employee attrition and give HR leadership a clea
 
 ---
 
+## 📸 Dashboard Screenshots
+
+### Page 1: Executive Overview
+![Executive Overview Dashboard](page1_overview.png)
+
+### Page 2: Detailed Analysis
+![Detailed Analysis Dashboard](page2_detailed.png)
+
+---
+
 ## 🗂️ Dataset
 
 | Property | Value |
@@ -53,6 +63,9 @@ The raw flat file was decomposed into a clean star schema:
    dim_rel_satisfaction      │      dim_work_life_balance
    dim_job_involvement       │
                        (measures)
+
+![Star Schema Data Model](data_model.png)
+
 ```
 
 ### Fact Table
@@ -232,7 +245,8 @@ hr-analytics-powerbi
 ├── HR_Analytics_Dashboard.pbix
 ├── hr_employee_attrition.csv
 ├── page1_overview.png
-└── page2_detailed.png
+├── page2_detailed.png
+└── data_model.png
 ```
 
 ---
@@ -241,7 +255,7 @@ hr-analytics-powerbi
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/hr-analytics-powerbi.git
+   git clone https://github.com/jahiduddinRasel/hr-analytics-powerbi.git
    ```
 2. Open `HR_Analytics_Dashboard.pbix` in **Power BI Desktop**.
 3. If prompted, point the data source to `hr_employee_attrition.csv`.
@@ -269,9 +283,10 @@ hr-analytics-powerbi
 
 ## 👤 Author
 
-**Your Name**
+**Jahid uddin Rasel**
 Data Analyst | Power BI • DAX • Data Modeling
-[LinkedIn](https://linkedin.com/in/your-handle) · [Portfolio](https://your-portfolio.com)
+[GitHub](https://github.com/jahiduddinRasel) 
+
 
 ---
 
