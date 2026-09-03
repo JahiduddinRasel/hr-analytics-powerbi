@@ -18,10 +18,10 @@ Identify the key drivers behind employee attrition and give HR leadership a clea
 ## 📸 Dashboard Screenshots
 
 ### Page 1: Executive Overview
-![Executive Overview](page1_Overview.png)
+![Executive Overview](page1_overview.png)
 
 ### Page 2: Detailed Analysis
-![Detailed Analysis](page2_Detailed.png)
+![Detailed Analysis](page2_detailed.png)
 
 ## 🧱 Data Model — Star Schema
 ![Data Model](data_model.png)
@@ -243,8 +243,8 @@ hr-analytics-powerbi
 ├── README.md
 ├── HR_Analytics_Dashboard.pbix
 ├── hr_employee_attrition.csv
-├── page1_Overview.png
-├── page2_Detailed.png
+├── page1_overview.png
+├── page2_detailed.png
 └── data_model.png
 ```
 
