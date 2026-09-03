@@ -18,12 +18,13 @@ Identify the key drivers behind employee attrition and give HR leadership a clea
 ## 📸 Dashboard Screenshots
 
 ### Page 1: Executive Overview
-![Executive Overview Dashboard](page1_overview.png)
+![Executive Overview](page1_overview.png)
 
 ### Page 2: Detailed Analysis
-![Detailed Analysis Dashboard](page2_detailed.png)
+![Detailed Analysis](page2_detailed.png)
 
----
+## 🧱 Data Model — Star Schema
+![Data Model](data_model.png)
 
 ## 🗂️ Dataset
 
@@ -63,8 +64,6 @@ The raw flat file was decomposed into a clean star schema:
    dim_rel_satisfaction      │      dim_work_life_balance
    dim_job_involvement       │
                        (measures)
-
-![Star Schema Data Model](data_model.png)
 
 ```
 
