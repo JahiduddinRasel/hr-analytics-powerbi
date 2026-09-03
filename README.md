@@ -243,8 +243,8 @@ hr-analytics-powerbi
 ├── README.md
 ├── HR_Analytics_Dashboard.pbix
 ├── hr_employee_attrition.csv
-├── page1_overview.png
-├── page2_detailed.png
+├── page1_Overview.png
+├── page2_Detailed.png
 └── data_model.png
 ```
 
