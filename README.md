@@ -18,10 +18,10 @@ Identify the key drivers behind employee attrition and give HR leadership a clea
 ## 📸 Dashboard Screenshots
 
 ### Page 1: Executive Overview
-![Executive Overview](page1_overview.png)
+![Executive Overview](page1_Overview.png)
 
 ### Page 2: Detailed Analysis
-![Detailed Analysis](page2_detailed.png)
+![Detailed Analysis](page2_Detailed.png)
 
 ## 🧱 Data Model — Star Schema
 ![Data Model](data_model.png)
