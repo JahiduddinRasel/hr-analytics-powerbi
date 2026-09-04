@@ -119,8 +119,20 @@ The raw flat file was decomposed into a clean star schema:
 ## 🔧 Power Query Transformation Steps
 
 1. **Automated Folder Ingestion :** 
-   - Connected Power Query directly to a raw data source folder (`/data/`) using the **Folder Connector**.
-   - Configured automated combining logic so any future monthly HR data exports dropped into the folder are automatically parsed, transformed, and appended into the data model without manual intervention.
+   - This project uses a reusable Power Query **Folder Connector** pipeline instead of a single static CSV.
+
+- Connects to a folder via parameter `pFolderPath`
+- Keeps only valid `.csv` files
+- Ignores hidden files and Excel temp files (`~$`)
+- Skips empty files
+- Auto-promotes headers and combines all CSVs on refresh
+
+### ⚠️ Important requirement
+All CSV files in the folder must have the **same column names and structure**.  
+If a new file has missing, extra, or renamed columns, the expand step can fail or produce nulls.
+
+Result: drop new monthly HR files into the folder → click **Refresh** → dashboard updates automatically.
+
 2. Renamed all columns to `snake_case` for consistency.
 3. Updated data types for every column.
 4. Removed `employee_count` column (constant value `1`).
