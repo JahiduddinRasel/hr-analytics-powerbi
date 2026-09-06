@@ -260,20 +260,6 @@ hr-analytics-powerbi
 └── data_model.png
 ```
 
----
-
-## 🚀 How to Reproduce
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/jahiduddinRasel/hr-analytics-powerbi.git
-   ```
-2. Open `HR_Analytics_Dashboard.pbix` in **Power BI Desktop**.
-3. If prompted, point the data source to `hr_employee_attrition.csv`.
-4. Click **Refresh** to reload the model.
-
----
-
 ## 🧾 Data Dictionary (Key Fields)
 
 | Field | Description |
